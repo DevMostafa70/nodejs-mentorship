@@ -1,0 +1,19 @@
+{
+  "name": "etl-auto-mapping",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "scheduler": "node scheduler.js",
+    "seed": "node seed.js",
+    "dev": "concurrently \"node server.js\" \"node scheduler.js\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.6.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

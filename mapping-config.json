@@ -1,0 +1,40 @@
+{
+  "finalSchema": {
+    "productId": "number",
+    "productName": "string",
+    "currentPrice": "number",
+    "salePrice": "number",
+    "stockQuantity": "number",
+    "lastUpdated": "string"
+  },
+  "sources": {
+    "products": {
+      "fieldMappings": {
+        "id": "productId",
+        "name": "productName"
+      },
+      "ignoreFields": ["description", "created_at"]
+    },
+    "prices": {
+      "fieldMappings": {
+        "product_id": "productId"
+      },
+      "transform": {
+        "currentPrice": "prices.find(p => p.type === 'market')?.price",
+        "salePrice": "prices.find(p => p.type === 'sale')?.price"
+      }
+    },
+    "stock": {
+      "fieldMappings": {
+        "product_id": "productId",
+        "quantity": "stockQuantity"
+      }
+    }
+  },
+  "autoMappingRules": [
+    { "pattern": ".*[Ii]d$", "target": "productId" },
+    { "pattern": ".*[Nn]ame$|.*[Tt]itle$", "target": "productName" },
+    { "pattern": ".*[Pp]rice$|.*[Aa]mount$", "target": "currentPrice" },
+    { "pattern": ".*[Ss]tock$|.*[Qq]uantity$|.*[Ii]nventory$", "target": "stockQuantity" }
+  ]
+}
