@@ -1,0 +1,602 @@
+[
+    {
+        "productId":  1,
+        "price":  33.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  2,
+        "price":  46.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  3,
+        "price":  60.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  4,
+        "price":  73.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  5,
+        "price":  87.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  6,
+        "price":  100.93,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  7,
+        "price":  110.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  8,
+        "price":  124.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  9,
+        "price":  137.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  10,
+        "price":  151.46,
+        "currency":  "USD",
+        "discountPercent":  15
+    },
+    {
+        "productId":  11,
+        "price":  164.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  12,
+        "price":  178.44,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  13,
+        "price":  191.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  14,
+        "price":  201.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  15,
+        "price":  215.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  16,
+        "price":  228.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  17,
+        "price":  242.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  18,
+        "price":  255.95,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  19,
+        "price":  269.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  20,
+        "price":  282.93,
+        "currency":  "USD",
+        "discountPercent":  15
+    },
+    {
+        "productId":  21,
+        "price":  292.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  22,
+        "price":  306.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  23,
+        "price":  319.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  24,
+        "price":  333.46,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  25,
+        "price":  346.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  26,
+        "price":  360.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  27,
+        "price":  373.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  28,
+        "price":  383.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  29,
+        "price":  397.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  30,
+        "price":  410.97,
+        "currency":  "USD",
+        "discountPercent":  15
+    },
+    {
+        "productId":  31,
+        "price":  424.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  32,
+        "price":  437.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  33,
+        "price":  451.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  34,
+        "price":  464.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  35,
+        "price":  474.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  36,
+        "price":  488.48,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  37,
+        "price":  501.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  38,
+        "price":  515.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  39,
+        "price":  528.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  40,
+        "price":  542.44,
+        "currency":  "USD",
+        "discountPercent":  15
+    },
+    {
+        "productId":  41,
+        "price":  555.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  42,
+        "price":  565.99,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  43,
+        "price":  579.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  44,
+        "price":  592.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  45,
+        "price":  606.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  46,
+        "price":  619.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  47,
+        "price":  633.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  48,
+        "price":  646.93,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  49,
+        "price":  656.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  50,
+        "price":  670.48,
+        "currency":  "USD",
+        "discountPercent":  15
+    },
+    {
+        "productId":  51,
+        "price":  683.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  52,
+        "price":  697.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  53,
+        "price":  710.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  54,
+        "price":  724.44,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  55,
+        "price":  737.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  56,
+        "price":  747.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  57,
+        "price":  761.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  58,
+        "price":  774.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  59,
+        "price":  788.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  60,
+        "price":  801.95,
+        "currency":  "USD",
+        "discountPercent":  15
+    },
+    {
+        "productId":  61,
+        "price":  815.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  62,
+        "price":  828.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  63,
+        "price":  838.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  64,
+        "price":  852.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  65,
+        "price":  865.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  66,
+        "price":  879.46,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  67,
+        "price":  892.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  68,
+        "price":  906.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  69,
+        "price":  919.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  70,
+        "price":  929.99,
+        "currency":  "USD",
+        "discountPercent":  15
+    },
+    {
+        "productId":  71,
+        "price":  943.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  72,
+        "price":  956.97,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  73,
+        "price":  970.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  74,
+        "price":  983.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  75,
+        "price":  997.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  76,
+        "price":  1010.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  77,
+        "price":  1020.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  78,
+        "price":  1034.48,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  79,
+        "price":  1047.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  80,
+        "price":  1061.46,
+        "currency":  "USD",
+        "discountPercent":  15
+    },
+    {
+        "productId":  81,
+        "price":  1074.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  82,
+        "price":  1088.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  83,
+        "price":  1101.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  84,
+        "price":  1111.99,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  85,
+        "price":  1125.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  86,
+        "price":  1138.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  87,
+        "price":  1152.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  88,
+        "price":  1165.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  89,
+        "price":  1179.44,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  90,
+        "price":  1192.93,
+        "currency":  "USD",
+        "discountPercent":  15
+    },
+    {
+        "productId":  91,
+        "price":  1202.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  92,
+        "price":  1216.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  93,
+        "price":  29.97,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  94,
+        "price":  43.46,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  95,
+        "price":  56.95,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  96,
+        "price":  70.44,
+        "currency":  "USD",
+        "discountPercent":  10
+    },
+    {
+        "productId":  97,
+        "price":  83.93,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  98,
+        "price":  93.99,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  99,
+        "price":  107.48,
+        "currency":  "USD",
+        "discountPercent":  0
+    },
+    {
+        "productId":  100,
+        "price":  120.97,
+        "currency":  "USD",
+        "discountPercent":  15
+    }
+]

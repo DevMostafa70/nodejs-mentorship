@@ -1,0 +1,702 @@
+[
+    {
+        "id":  1,
+        "name":  "Pro Laptop 1",
+        "category":  "Electronics",
+        "sku":  "SKU-0001",
+        "active":  true
+    },
+    {
+        "id":  2,
+        "name":  "Smart Headphones 2",
+        "category":  "Home",
+        "sku":  "SKU-0002",
+        "active":  true
+    },
+    {
+        "id":  3,
+        "name":  "Eco Coffee Maker 3",
+        "category":  "Kitchen",
+        "sku":  "SKU-0003",
+        "active":  true
+    },
+    {
+        "id":  4,
+        "name":  "Prime Backpack 4",
+        "category":  "Books",
+        "sku":  "SKU-0004",
+        "active":  true
+    },
+    {
+        "id":  5,
+        "name":  "Ultra Desk Lamp 5",
+        "category":  "Sports",
+        "sku":  "SKU-0005",
+        "active":  true
+    },
+    {
+        "id":  6,
+        "name":  "Classic Water Bottle 6",
+        "category":  "Beauty",
+        "sku":  "SKU-0006",
+        "active":  true
+    },
+    {
+        "id":  7,
+        "name":  "Compact Keyboard 7",
+        "category":  "Toys",
+        "sku":  "SKU-0007",
+        "active":  true
+    },
+    {
+        "id":  8,
+        "name":  "Premium Monitor 8",
+        "category":  "Office",
+        "sku":  "SKU-0008",
+        "active":  true
+    },
+    {
+        "id":  9,
+        "name":  "Essential Running Shoes 9",
+        "category":  "Garden",
+        "sku":  "SKU-0009",
+        "active":  false
+    },
+    {
+        "id":  10,
+        "name":  "Advanced Tool Kit 10",
+        "category":  "Automotive",
+        "sku":  "SKU-0010",
+        "active":  true
+    },
+    {
+        "id":  11,
+        "name":  "Pro Laptop 11",
+        "category":  "Electronics",
+        "sku":  "SKU-0011",
+        "active":  true
+    },
+    {
+        "id":  12,
+        "name":  "Smart Headphones 12",
+        "category":  "Home",
+        "sku":  "SKU-0012",
+        "active":  true
+    },
+    {
+        "id":  13,
+        "name":  "Eco Coffee Maker 13",
+        "category":  "Kitchen",
+        "sku":  "SKU-0013",
+        "active":  true
+    },
+    {
+        "id":  14,
+        "name":  "Prime Backpack 14",
+        "category":  "Books",
+        "sku":  "SKU-0014",
+        "active":  true
+    },
+    {
+        "id":  15,
+        "name":  "Ultra Desk Lamp 15",
+        "category":  "Sports",
+        "sku":  "SKU-0015",
+        "active":  true
+    },
+    {
+        "id":  16,
+        "name":  "Classic Water Bottle 16",
+        "category":  "Beauty",
+        "sku":  "SKU-0016",
+        "active":  true
+    },
+    {
+        "id":  17,
+        "name":  "Compact Keyboard 17",
+        "category":  "Toys",
+        "sku":  "SKU-0017",
+        "active":  true
+    },
+    {
+        "id":  18,
+        "name":  "Premium Monitor 18",
+        "category":  "Office",
+        "sku":  "SKU-0018",
+        "active":  false
+    },
+    {
+        "id":  19,
+        "name":  "Essential Running Shoes 19",
+        "category":  "Garden",
+        "sku":  "SKU-0019",
+        "active":  true
+    },
+    {
+        "id":  20,
+        "name":  "Advanced Tool Kit 20",
+        "category":  "Automotive",
+        "sku":  "SKU-0020",
+        "active":  true
+    },
+    {
+        "id":  21,
+        "name":  "Pro Laptop 21",
+        "category":  "Electronics",
+        "sku":  "SKU-0021",
+        "active":  true
+    },
+    {
+        "id":  22,
+        "name":  "Smart Headphones 22",
+        "category":  "Home",
+        "sku":  "SKU-0022",
+        "active":  true
+    },
+    {
+        "id":  23,
+        "name":  "Eco Coffee Maker 23",
+        "category":  "Kitchen",
+        "sku":  "SKU-0023",
+        "active":  true
+    },
+    {
+        "id":  24,
+        "name":  "Prime Backpack 24",
+        "category":  "Books",
+        "sku":  "SKU-0024",
+        "active":  true
+    },
+    {
+        "id":  25,
+        "name":  "Ultra Desk Lamp 25",
+        "category":  "Sports",
+        "sku":  "SKU-0025",
+        "active":  true
+    },
+    {
+        "id":  26,
+        "name":  "Classic Water Bottle 26",
+        "category":  "Beauty",
+        "sku":  "SKU-0026",
+        "active":  true
+    },
+    {
+        "id":  27,
+        "name":  "Compact Keyboard 27",
+        "category":  "Toys",
+        "sku":  "SKU-0027",
+        "active":  false
+    },
+    {
+        "id":  28,
+        "name":  "Premium Monitor 28",
+        "category":  "Office",
+        "sku":  "SKU-0028",
+        "active":  true
+    },
+    {
+        "id":  29,
+        "name":  "Essential Running Shoes 29",
+        "category":  "Garden",
+        "sku":  "SKU-0029",
+        "active":  true
+    },
+    {
+        "id":  30,
+        "name":  "Advanced Tool Kit 30",
+        "category":  "Automotive",
+        "sku":  "SKU-0030",
+        "active":  true
+    },
+    {
+        "id":  31,
+        "name":  "Pro Laptop 31",
+        "category":  "Electronics",
+        "sku":  "SKU-0031",
+        "active":  true
+    },
+    {
+        "id":  32,
+        "name":  "Smart Headphones 32",
+        "category":  "Home",
+        "sku":  "SKU-0032",
+        "active":  true
+    },
+    {
+        "id":  33,
+        "name":  "Eco Coffee Maker 33",
+        "category":  "Kitchen",
+        "sku":  "SKU-0033",
+        "active":  true
+    },
+    {
+        "id":  34,
+        "name":  "Prime Backpack 34",
+        "category":  "Books",
+        "sku":  "SKU-0034",
+        "active":  true
+    },
+    {
+        "id":  35,
+        "name":  "Ultra Desk Lamp 35",
+        "category":  "Sports",
+        "sku":  "SKU-0035",
+        "active":  true
+    },
+    {
+        "id":  36,
+        "name":  "Classic Water Bottle 36",
+        "category":  "Beauty",
+        "sku":  "SKU-0036",
+        "active":  false
+    },
+    {
+        "id":  37,
+        "name":  "Compact Keyboard 37",
+        "category":  "Toys",
+        "sku":  "SKU-0037",
+        "active":  true
+    },
+    {
+        "id":  38,
+        "name":  "Premium Monitor 38",
+        "category":  "Office",
+        "sku":  "SKU-0038",
+        "active":  true
+    },
+    {
+        "id":  39,
+        "name":  "Essential Running Shoes 39",
+        "category":  "Garden",
+        "sku":  "SKU-0039",
+        "active":  true
+    },
+    {
+        "id":  40,
+        "name":  "Advanced Tool Kit 40",
+        "category":  "Automotive",
+        "sku":  "SKU-0040",
+        "active":  true
+    },
+    {
+        "id":  41,
+        "name":  "Pro Laptop 41",
+        "category":  "Electronics",
+        "sku":  "SKU-0041",
+        "active":  true
+    },
+    {
+        "id":  42,
+        "name":  "Smart Headphones 42",
+        "category":  "Home",
+        "sku":  "SKU-0042",
+        "active":  true
+    },
+    {
+        "id":  43,
+        "name":  "Eco Coffee Maker 43",
+        "category":  "Kitchen",
+        "sku":  "SKU-0043",
+        "active":  true
+    },
+    {
+        "id":  44,
+        "name":  "Prime Backpack 44",
+        "category":  "Books",
+        "sku":  "SKU-0044",
+        "active":  true
+    },
+    {
+        "id":  45,
+        "name":  "Ultra Desk Lamp 45",
+        "category":  "Sports",
+        "sku":  "SKU-0045",
+        "active":  false
+    },
+    {
+        "id":  46,
+        "name":  "Classic Water Bottle 46",
+        "category":  "Beauty",
+        "sku":  "SKU-0046",
+        "active":  true
+    },
+    {
+        "id":  47,
+        "name":  "Compact Keyboard 47",
+        "category":  "Toys",
+        "sku":  "SKU-0047",
+        "active":  true
+    },
+    {
+        "id":  48,
+        "name":  "Premium Monitor 48",
+        "category":  "Office",
+        "sku":  "SKU-0048",
+        "active":  true
+    },
+    {
+        "id":  49,
+        "name":  "Essential Running Shoes 49",
+        "category":  "Garden",
+        "sku":  "SKU-0049",
+        "active":  true
+    },
+    {
+        "id":  50,
+        "name":  "Advanced Tool Kit 50",
+        "category":  "Automotive",
+        "sku":  "SKU-0050",
+        "active":  true
+    },
+    {
+        "id":  51,
+        "name":  "Pro Laptop 51",
+        "category":  "Electronics",
+        "sku":  "SKU-0051",
+        "active":  true
+    },
+    {
+        "id":  52,
+        "name":  "Smart Headphones 52",
+        "category":  "Home",
+        "sku":  "SKU-0052",
+        "active":  true
+    },
+    {
+        "id":  53,
+        "name":  "Eco Coffee Maker 53",
+        "category":  "Kitchen",
+        "sku":  "SKU-0053",
+        "active":  true
+    },
+    {
+        "id":  54,
+        "name":  "Prime Backpack 54",
+        "category":  "Books",
+        "sku":  "SKU-0054",
+        "active":  false
+    },
+    {
+        "id":  55,
+        "name":  "Ultra Desk Lamp 55",
+        "category":  "Sports",
+        "sku":  "SKU-0055",
+        "active":  true
+    },
+    {
+        "id":  56,
+        "name":  "Classic Water Bottle 56",
+        "category":  "Beauty",
+        "sku":  "SKU-0056",
+        "active":  true
+    },
+    {
+        "id":  57,
+        "name":  "Compact Keyboard 57",
+        "category":  "Toys",
+        "sku":  "SKU-0057",
+        "active":  true
+    },
+    {
+        "id":  58,
+        "name":  "Premium Monitor 58",
+        "category":  "Office",
+        "sku":  "SKU-0058",
+        "active":  true
+    },
+    {
+        "id":  59,
+        "name":  "Essential Running Shoes 59",
+        "category":  "Garden",
+        "sku":  "SKU-0059",
+        "active":  true
+    },
+    {
+        "id":  60,
+        "name":  "Advanced Tool Kit 60",
+        "category":  "Automotive",
+        "sku":  "SKU-0060",
+        "active":  true
+    },
+    {
+        "id":  61,
+        "name":  "Pro Laptop 61",
+        "category":  "Electronics",
+        "sku":  "SKU-0061",
+        "active":  true
+    },
+    {
+        "id":  62,
+        "name":  "Smart Headphones 62",
+        "category":  "Home",
+        "sku":  "SKU-0062",
+        "active":  true
+    },
+    {
+        "id":  63,
+        "name":  "Eco Coffee Maker 63",
+        "category":  "Kitchen",
+        "sku":  "SKU-0063",
+        "active":  false
+    },
+    {
+        "id":  64,
+        "name":  "Prime Backpack 64",
+        "category":  "Books",
+        "sku":  "SKU-0064",
+        "active":  true
+    },
+    {
+        "id":  65,
+        "name":  "Ultra Desk Lamp 65",
+        "category":  "Sports",
+        "sku":  "SKU-0065",
+        "active":  true
+    },
+    {
+        "id":  66,
+        "name":  "Classic Water Bottle 66",
+        "category":  "Beauty",
+        "sku":  "SKU-0066",
+        "active":  true
+    },
+    {
+        "id":  67,
+        "name":  "Compact Keyboard 67",
+        "category":  "Toys",
+        "sku":  "SKU-0067",
+        "active":  true
+    },
+    {
+        "id":  68,
+        "name":  "Premium Monitor 68",
+        "category":  "Office",
+        "sku":  "SKU-0068",
+        "active":  true
+    },
+    {
+        "id":  69,
+        "name":  "Essential Running Shoes 69",
+        "category":  "Garden",
+        "sku":  "SKU-0069",
+        "active":  true
+    },
+    {
+        "id":  70,
+        "name":  "Advanced Tool Kit 70",
+        "category":  "Automotive",
+        "sku":  "SKU-0070",
+        "active":  true
+    },
+    {
+        "id":  71,
+        "name":  "Pro Laptop 71",
+        "category":  "Electronics",
+        "sku":  "SKU-0071",
+        "active":  true
+    },
+    {
+        "id":  72,
+        "name":  "Smart Headphones 72",
+        "category":  "Home",
+        "sku":  "SKU-0072",
+        "active":  false
+    },
+    {
+        "id":  73,
+        "name":  "Eco Coffee Maker 73",
+        "category":  "Kitchen",
+        "sku":  "SKU-0073",
+        "active":  true
+    },
+    {
+        "id":  74,
+        "name":  "Prime Backpack 74",
+        "category":  "Books",
+        "sku":  "SKU-0074",
+        "active":  true
+    },
+    {
+        "id":  75,
+        "name":  "Ultra Desk Lamp 75",
+        "category":  "Sports",
+        "sku":  "SKU-0075",
+        "active":  true
+    },
+    {
+        "id":  76,
+        "name":  "Classic Water Bottle 76",
+        "category":  "Beauty",
+        "sku":  "SKU-0076",
+        "active":  true
+    },
+    {
+        "id":  77,
+        "name":  "Compact Keyboard 77",
+        "category":  "Toys",
+        "sku":  "SKU-0077",
+        "active":  true
+    },
+    {
+        "id":  78,
+        "name":  "Premium Monitor 78",
+        "category":  "Office",
+        "sku":  "SKU-0078",
+        "active":  true
+    },
+    {
+        "id":  79,
+        "name":  "Essential Running Shoes 79",
+        "category":  "Garden",
+        "sku":  "SKU-0079",
+        "active":  true
+    },
+    {
+        "id":  80,
+        "name":  "Advanced Tool Kit 80",
+        "category":  "Automotive",
+        "sku":  "SKU-0080",
+        "active":  true
+    },
+    {
+        "id":  81,
+        "name":  "Pro Laptop 81",
+        "category":  "Electronics",
+        "sku":  "SKU-0081",
+        "active":  false
+    },
+    {
+        "id":  82,
+        "name":  "Smart Headphones 82",
+        "category":  "Home",
+        "sku":  "SKU-0082",
+        "active":  true
+    },
+    {
+        "id":  83,
+        "name":  "Eco Coffee Maker 83",
+        "category":  "Kitchen",
+        "sku":  "SKU-0083",
+        "active":  true
+    },
+    {
+        "id":  84,
+        "name":  "Prime Backpack 84",
+        "category":  "Books",
+        "sku":  "SKU-0084",
+        "active":  true
+    },
+    {
+        "id":  85,
+        "name":  "Ultra Desk Lamp 85",
+        "category":  "Sports",
+        "sku":  "SKU-0085",
+        "active":  true
+    },
+    {
+        "id":  86,
+        "name":  "Classic Water Bottle 86",
+        "category":  "Beauty",
+        "sku":  "SKU-0086",
+        "active":  true
+    },
+    {
+        "id":  87,
+        "name":  "Compact Keyboard 87",
+        "category":  "Toys",
+        "sku":  "SKU-0087",
+        "active":  true
+    },
+    {
+        "id":  88,
+        "name":  "Premium Monitor 88",
+        "category":  "Office",
+        "sku":  "SKU-0088",
+        "active":  true
+    },
+    {
+        "id":  89,
+        "name":  "Essential Running Shoes 89",
+        "category":  "Garden",
+        "sku":  "SKU-0089",
+        "active":  true
+    },
+    {
+        "id":  90,
+        "name":  "Advanced Tool Kit 90",
+        "category":  "Automotive",
+        "sku":  "SKU-0090",
+        "active":  false
+    },
+    {
+        "id":  91,
+        "name":  "Pro Laptop 91",
+        "category":  "Electronics",
+        "sku":  "SKU-0091",
+        "active":  true
+    },
+    {
+        "id":  92,
+        "name":  "Smart Headphones 92",
+        "category":  "Home",
+        "sku":  "SKU-0092",
+        "active":  true
+    },
+    {
+        "id":  93,
+        "name":  "Eco Coffee Maker 93",
+        "category":  "Kitchen",
+        "sku":  "SKU-0093",
+        "active":  true
+    },
+    {
+        "id":  94,
+        "name":  "Prime Backpack 94",
+        "category":  "Books",
+        "sku":  "SKU-0094",
+        "active":  true
+    },
+    {
+        "id":  95,
+        "name":  "Ultra Desk Lamp 95",
+        "category":  "Sports",
+        "sku":  "SKU-0095",
+        "active":  true
+    },
+    {
+        "id":  96,
+        "name":  "Classic Water Bottle 96",
+        "category":  "Beauty",
+        "sku":  "SKU-0096",
+        "active":  true
+    },
+    {
+        "id":  97,
+        "name":  "Compact Keyboard 97",
+        "category":  "Toys",
+        "sku":  "SKU-0097",
+        "active":  true
+    },
+    {
+        "id":  98,
+        "name":  "Premium Monitor 98",
+        "category":  "Office",
+        "sku":  "SKU-0098",
+        "active":  true
+    },
+    {
+        "id":  99,
+        "name":  "Essential Running Shoes 99",
+        "category":  "Garden",
+        "sku":  "SKU-0099",
+        "active":  false
+    },
+    {
+        "id":  100,
+        "name":  "Advanced Tool Kit 100",
+        "category":  "Automotive",
+        "sku":  "SKU-0100",
+        "active":  true
+    }
+]
