@@ -6,10 +6,15 @@ function created(res, data) {
   return res.status(201).json({ success: true, data });
 }
 
-function fail(res, status, message, details) {
+function fail(res, status, message, details, meta) {
   return res.status(status).json({
     success: false,
-    error: { message, details: details || undefined }
+    error: {
+      message,
+      details: details || undefined,
+      code: meta?.code,
+      requestId: meta?.requestId || res.req?.context?.requestId
+    }
   });
 }
 

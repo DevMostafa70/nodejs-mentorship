@@ -1,12 +1,12 @@
 const logger = require('../config/logger');
 const { fail } = require('../utils/response');
 
-// كلاسات أخطاء مخصصة
 class AppError extends Error {
-  constructor(message, statusCode, details = null) {
+  constructor(message, statusCode, details = null, code = 'APP_ERROR') {
     super(message);
     this.statusCode = statusCode;
     this.details = details;
+    this.code = code;
     this.isOperational = true;
     Error.captureStackTrace(this, this.constructor);
   }
@@ -14,62 +14,104 @@ class AppError extends Error {
 
 class ValidationError extends AppError {
   constructor(message, details = null) {
-    super(message, 400, details);
+    super(message, 400, details, 'VALIDATION_ERROR');
+  }
+}
+
+class UnauthorizedError extends AppError {
+  constructor(message = 'Unauthorized') {
+    super(message, 401, null, 'UNAUTHORIZED');
+  }
+}
+
+class ForbiddenError extends AppError {
+  constructor(message = 'Forbidden') {
+    super(message, 403, null, 'FORBIDDEN');
   }
 }
 
 class NotFoundError extends AppError {
   constructor(message = 'Resource not found') {
-    super(message, 404);
+    super(message, 404, null, 'NOT_FOUND');
   }
 }
 
 class DatabaseError extends AppError {
   constructor(message = 'Database error', details = null) {
-    super(message, 500, details);
+    super(message, 500, details, 'DATABASE_ERROR');
   }
 }
 
-// ميدلوير معالجة الأخطاء
 function errorHandler(err, req, res, next) {
-  // تسجيل الخطأ
+  if (res.headersSent) return next(err);
+
+  const statusCode = err.statusCode || err.status || 500;
+  const isDevelopment = process.env.NODE_ENV === 'development';
+  const requestId = req.context?.requestId;
+
   logger.error({
+    message: 'request_error',
+    requestId,
+    code: err.code,
     error: err.message,
     stack: err.stack,
-    url: req.url,
+    url: req.originalUrl,
     method: req.method,
     ip: req.ip,
+    userId: req.user?.id,
+    tenantId: req.user?.tenantId || req.context?.tenantId,
     ...(err.details && { details: err.details })
   });
 
-  // أخطاء معرفة من قبلنا
   if (err.isOperational) {
-    return fail(res, err.statusCode, err.message, err.details);
+    return fail(res, statusCode, err.message, err.details, {
+      code: err.code,
+      requestId
+    });
   }
 
-  // أخطاء قاعدة البيانات (SQLite)
   if (err.code === 'SQLITE_CONSTRAINT') {
-    return fail(res, 409, 'Duplicate entry', 'This record already exists');
+    return fail(res, 409, 'Duplicate entry', 'This record already exists', {
+      code: 'DUPLICATE_ENTRY',
+      requestId
+    });
   }
 
-  // أخطاء التحقق من الصحة (من Joi أو غيرها)
+  if (err.type === 'entity.too.large') {
+    return fail(res, 413, 'Request body too large', err.message, {
+      code: 'BODY_TOO_LARGE',
+      requestId
+    });
+  }
+
+  if (err instanceof SyntaxError && err.status === 400 && 'body' in err) {
+    return fail(res, 400, 'Malformed JSON body', err.message, {
+      code: 'MALFORMED_JSON',
+      requestId
+    });
+  }
+
   if (err.name === 'ValidationError') {
-    return fail(res, 400, 'Validation Error', err.message);
+    return fail(res, 400, 'Validation Error', err.message, {
+      code: 'VALIDATION_ERROR',
+      requestId
+    });
   }
 
-  // أخطاء غير متوقعة
-  const isDevelopment = process.env.NODE_ENV === 'development';
   return fail(
     res,
     500,
     'Internal Server Error',
-    isDevelopment ? err.message : 'Something went wrong'
+    isDevelopment ? err.message : 'Something went wrong',
+    { code: 'INTERNAL_ERROR', requestId }
   );
 }
 
 module.exports = {
   AppError,
   ValidationError,
+  UnauthorizedError,
+  ForbiddenError,
   NotFoundError,
   DatabaseError,
   errorHandler

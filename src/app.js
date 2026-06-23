@@ -3,8 +3,8 @@ const cors = require('cors');
 const helmet = require('helmet');
 const compression = require('compression');
 
-const logger = require('./config/logger');
 const requestLogger = require('./middlewares/logger');
+const { requestContext } = require('./middlewares/requestContext');
 const { errorHandler } = require('./middlewares/errorHandler');
 const { generalLimiter } = require('./config/rateLimit');
 const { apiKeyAuth } = require('./middlewares/auth');
@@ -13,33 +13,36 @@ const { fail } = require('./utils/response');
 
 const app = express();
 
-// ========== الأمان والأداء ==========
-app.use(helmet()); // حماية الرأسيات
-app.use(cors()); // السماح بـ Cross-Origin
-app.use(compression()); // ضغط الردود
+app.set('etag', 'strong');
+app.set('trust proxy', 1);
 
-// ========== ميدلويرات أساسية ==========
-app.use(express.json({ limit: '10mb' }));
-app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+app.use(requestContext);
+app.use(helmet());
+app.use(cors({
+  origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',') : true,
+  credentials: true
+}));
+app.use(compression());
 
-// ========== تسجيل الطلبات ==========
+app.use(express.json({ limit: process.env.JSON_BODY_LIMIT || '1mb' }));
+app.use(express.urlencoded({
+  extended: true,
+  limit: process.env.URLENCODED_BODY_LIMIT || '512kb'
+}));
+
 app.use(requestLogger);
 
-// ========== تحديد المعدل العام ==========
-app.use('/api', generalLimiter);
-
-// ========== مفتاح API (اختياري) ==========
 app.use('/api', apiKeyAuth);
-
-// ========== الراوتات ==========
+app.use('/api', generalLimiter);
 app.use('/api', routes);
 
-// ========== مسار غير موجود ==========
 app.use((req, res) => {
-  fail(res, 404, 'Route not found', `Cannot ${req.method} ${req.url}`);
+  fail(res, 404, 'Route not found', `Cannot ${req.method} ${req.originalUrl}`, {
+    code: 'ROUTE_NOT_FOUND',
+    requestId: req.context?.requestId
+  });
 });
 
-// ========== معالجة الأخطاء (آخر شيء) ==========
 app.use(errorHandler);
 
 module.exports = app;

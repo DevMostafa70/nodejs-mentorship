@@ -3,16 +3,22 @@ const asyncHandler = require('../utils/asyncHandler');
 const { getNews, addLike } = require('../controllers/news.controller');
 const { validateId, validatePagination } = require('../middlewares/validator');
 const { strictLimiter } = require('../config/rateLimit');
-const { apiKeyAuth } = require('../middlewares/auth');
+const { authorizeResource } = require('../middlewares/auth');
+const { cacheResponse } = require('../middlewares/cache');
 
-// GET /api/news - مع تحقق من الصفحات ومعدل عام (من app.js)
-router.get('/', validatePagination, asyncHandler(getNews));
+router.get(
+  '/',
+  authorizeResource('news', 'read'),
+  validatePagination,
+  cacheResponse(Number(process.env.NEWS_CACHE_TTL_SECONDS || 60)),
+  asyncHandler(getNews)
+);
 
-// POST /api/news/:id/like - مع حماية صارمة وتحقق من ID
 router.post(
   '/:id/like',
-  strictLimiter, // حماية من الطلبات المتكررة
-  validateId, // تحقق من صحة الـ ID
+  authorizeResource('news', 'like'),
+  strictLimiter,
+  validateId,
   asyncHandler(addLike)
 );
 
